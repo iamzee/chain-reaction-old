@@ -36,7 +36,7 @@ export function App() {
     <div>
       {socket ? (
         <div>
-          <h1>Chain reaction</h1>
+          <h1 className="bg-red-500">Chain reaction</h1>
           <button onClick={handle_start_searching}>Online Multiplayer</button>
         </div>
       ) : null}
